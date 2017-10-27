@@ -223,7 +223,7 @@ class Shortn_It {
 			return '';
 
 		//	Get the Shortn.It URL from the matching post meta
-		$shortn_url = get_post_meta( $post_id, SHORTN_IT_META, true );
+		$shortn_url = trim(get_post_meta( $post_id, SHORTN_IT_META, true ));
 
 		//	If the Shortn.It URL was found, return it
 		if( $shortn_url != '' )
