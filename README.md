@@ -85,6 +85,9 @@ The short domain needs to be configured as an alias to your main domain. If you'
 ## Changelog ##
 
 ### 1.7.4 ###
+* FIXED: Bug with chaning short url while resaving post https://wordpress.org/support/topic/short-url-changes-when-post-is-updated-2/
+
+### 1.7.4 ###
 * ADDED: Option to filter WP SEO by Yoast canonical links with Shortn.It URLs
 
 ### 1.7.3 ###
