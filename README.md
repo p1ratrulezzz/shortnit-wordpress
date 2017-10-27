@@ -6,13 +6,13 @@
   
 **Donate link:** http://docof.me/donate
   
-**Version:** 1.7.4
+**Version:** 1.7.5
 
 **Tags:** url shortener, url shortening, shorturl, short_url, shortlink, short permalink, short url, custom short url, custom url
   
 **Requires at least:** 2.5
   
-**Tested up to:** 4.2.2
+**Tested up to:** 4.8.2
   
 **Stable tag:** trunk
   
