@@ -222,6 +222,11 @@ class Shortn_It {
 		if( $post_id == '' )
 			return '';
 
+		// Ensure we are using the post for getting saved value (not a new revision) 
+		if ( $the_post = wp_is_post_revision($post_id) ) {
+                        $post_id = $the_post;
+                }
+
 		//	Get the Shortn.It URL from the matching post meta
 		$shortn_url = trim(get_post_meta( $post_id, SHORTN_IT_META, true ));
 
